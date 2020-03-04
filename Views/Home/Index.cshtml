@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div>
+        <h1 class="display-4 text-center">Welcome</h1>
+
+        <form action="../StarWars/GetPersonById">
+            Character Name: <input type="number" name="Id" />
+            <input type="submit" value="Search" class="btn btn-outline-dark" />
+        </form>
+        <br/> <br/>
+        <form action="../StarWars/GetPlanetById">
+            Planet Name: <input type="number" name="Id" />
+            <input type="submit" value="Search" class="btn btn-outline-dark" />
+        </form>
+    </div>
